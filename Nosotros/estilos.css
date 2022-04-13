@@ -1,0 +1,10 @@
+.mascotas{
+    display:block;
+    margin:auto;
+    width: 140px;
+    height: 150px;
+}
+
+.mascotas_nombres{
+ text-align: center;
+}

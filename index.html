@@ -1,0 +1,193 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Imagenes/Logo.png">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="estilos.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<body style="background-color: rgb(164, 241, 188);">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(59, 213, 136);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="Imagenes/Logo.png" alt="" width="30" height="24">
+          </a>
+          <button class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse menu" id="navbarNav">
+
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a type="button" class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#modalRegistro">Registrar
+                    </a>
+                          
+                </li>
+                <li class="nav-item">
+                  <a type="button" class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#modalInicio">Iniciar</a>      
+                </li>
+            </ul>
+          </div>
+      </div> 
+
+    </nav>
+    <div class="container-fluid container-ms row" >
+
+      <div class="col-md-6" style="margin: 0 auto;">
+        <form class="d-flex p-2 " style="margin: 0 auto;">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          <a class="" href="#" >
+            <img src="Imagenes/Carro_Compra.png" alt="" width="45" height="40">
+          </a>
+       </form>
+
+      </div>
+
+ </div>
+    
+ <div class="container-ms row Botones_inferiores_padre" style="text-align: center; background-color: rgb(106, 251, 169); height: 15%;" >
+    <div class="Col-3 Botones_inferiores_hijos_S" style="text-align: center;" >
+      <a class="bontones_menu" href="Perros/Comida_Perro/Index_comida_perros.html" > Perros<span><img src="Imagenes/Logo.png" alt="" width="30" height="24"></span>
+      </a>
+    </div>
+    <div  class="Col-3 Botones_inferiores_hijos_S" >
+      <a class="bontones_menu" href="Gatos/Accesorios_Gatos/index_accesorios_gatos.html"> Gatos<span><img src="Imagenes/Logo.png" alt="" width="30" height="24"></span>
+      </a>
+    </div>
+    <div class="Col-3 Botones_inferiores_hijos_S" >
+     <a class="bontones_menu" href="#"> Otros<span><img src="Imagenes/Logo.png" alt="" width="30" height="24"></span>
+     </a>
+    </div>
+    <div class="Col-3 Botones_inferiores_hijos_S" >
+      <a class="bontones_menu" href="Nosotros/Index_nosotros.html"> Nosotros<img src="Imagenes/Logo.png" alt="" width="30" height="24">
+      </a>
+   </div>
+ </div>
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Imagenes/Carrucel/Imagen_1_Carrucel.png" class="d-block w-100" alt="..." width="400" height="200">
+      </div>
+      <div class="carousel-item">
+        <img src="Imagenes/Carrucel/Imagen_2_Carrucel.png" class="d-block w-100" alt="..." width="400" height="200">
+      </div>
+      <div class="carousel-item">
+        <img src="Imagenes/Carrucel/Imagen_3_Carrucel.png" class="d-block w-100" alt="..." width="400" height="200">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container-fluid">
+    <iframe width="100%" height="315" style="margin-bottom: 20px;" src="https://www.youtube.com/embed/Jv1iolzbvZg" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="modal fade" id="modalInicio" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalInicioLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5> Ingreso de Usuario</h5>
+            <button type="button" class="btn-clase" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Dirección de correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Ingresar</button>
+            <button type="button" class="btn btn_secondary" data-bs-dismiss="modal" >Cerrar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+    
+    <div class="modal fade" id="modalRegistro" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalRegistroLabel" aria-hidden="true">
+      
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h3>
+              Registro de Usuario
+            </h3>
+
+          </div>
+
+          <div class="modal-body">
+            <div class="col">
+              <label for="inputEmail4" class="form-label">Nombre Completo</label>
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre Completo">
+            </div>
+            <div class="col">
+              <label for="inputEmail4" class="form-label">Apellido Completo</label>
+              <input type="text" class="form-control" placeholder="Aplellido" aria-label="Apellido Completo">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Direccion</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="">
+            </div>
+
+            <div class="col-md-6">
+              <label for="input" class="form-label">Telefono</label>
+              <input type="" class="form-control" id="inputEmail4">
+            </div>
+            
+            <div class="col">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col">
+              <label for="inputPassword4" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Registrar</button>
+            <button type="button" class="btn btn_secondary" data-bs-dismiss="modal" >Cerrar</button>
+          </div>
+            
+        </div>
+
+      </div>
+      
+    </div>
+    <div class="container-fluid bg-light text-center p-3" style="margin-bottom: 0%;">
+         <p>&copy; Derechos Reservados</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+.bontones_menu{
+    background-color: rgb(224, 248, 172);
+    color: rgb(0, 0, 0);
+    border: 1px solid black; 
+    padding:1px 20px 1px 10px; 
+    margin: auto;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px black;
+}
+
+.Botones_inferiores_padre{
+    position: relative;
+}
+
+.Botones_inferiores_hijos_S{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: -1%;
+    
+}
+
+.Botones_inferiores_hijos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12%;
+    
+}
+
+.bontones_menu_inferior{
+    background-color: rgb(14, 157, 69);
+    border: 1px solid black; 
+    color: rgb(73, 182, 192);
+    padding:3px 50px 5px 50px; 
+    margin: auto;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px black;
+}
+
+.bontones_menu:hover{
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px;
+}
+
+.bontones_menu_inferior:hover{
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px;
+}
