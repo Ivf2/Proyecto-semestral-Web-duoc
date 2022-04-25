@@ -8,8 +8,10 @@
 </head>
 <link rel="stylesheet" href="estilos.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<body style="background-color: rgb(164, 241, 188);">
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(59, 213, 136);">
+<body class="fondo">
+
+    <!--barra principal-->
+    <nav class="navbar navbar-expand-lg navbar-light Menu_superior">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="Imagenes/Logo.png" alt="" width="30" height="24">
@@ -24,6 +26,7 @@
           <span class="navbar-toggler-icon"></span>
           </button>
 
+          <!--registro usuario-->
           <div class="collapse navbar-collapse menu" id="navbarNav">
 
             <ul class="navbar-nav mx-auto">
@@ -37,6 +40,7 @@
                 </li>
             </ul>
           </div>
+
       </div> 
 
     </nav>
@@ -54,26 +58,26 @@
       </div>
 
  </div>
-    
- <div class="container-ms row Botones_inferiores_padre" style="text-align: center; background-color: rgb(106, 251, 169); height: 15%;" >
+ <!--barrita con opciones-->
+ <div class="container-ms row Botones_inferiores_padre" style="text-align: center; height: 15%;" >
     <div class="Col-3 Botones_inferiores_hijos_S" style="text-align: center;" >
-      <a class="bontones_menu" href="Perros/Comida_Perro/Index_comida_perros.html" > Perros<span><img src="Imagenes/Logo.png" alt="" width="30" height="24"></span>
+      <a class="bontones_menu" href="Perros/Comida_Perro/Index_comida_perros.html" > Perros<span><img src="Imagenes/dog.png" alt="" width="30" height="24"></span>
       </a>
     </div>
     <div  class="Col-3 Botones_inferiores_hijos_S" >
-      <a class="bontones_menu" href="Gatos/Accesorios_Gatos/index_accesorios_gatos.html"> Gatos<span><img src="Imagenes/Logo.png" alt="" width="30" height="24"></span>
+      <a class="bontones_menu" href="Gatos/Accesorios_Gatos/index_accesorios_gatos.html"> Gatos<span><img src="Imagenes/cat.png" alt="" width="30" height="24"></span>
       </a>
     </div>
     <div class="Col-3 Botones_inferiores_hijos_S" >
-     <a class="bontones_menu" href="#"> Otros<span><img src="Imagenes/Logo.png" alt="" width="30" height="24"></span>
+     <a class="bontones_menu" href="#"> Otros<span><img src="Imagenes/general.png" alt="" width="30" height="24"></span>
      </a>
     </div>
     <div class="Col-3 Botones_inferiores_hijos_S" >
-      <a class="bontones_menu" href="Nosotros/Index_nosotros.html"> Nosotros<img src="Imagenes/Logo.png" alt="" width="30" height="24">
+      <a class="bontones_menu" href="Nosotros/Index_nosotros.html"> Nosotros<img src="Imagenes/nosotros.png" alt="" width="30" height="24">
       </a>
    </div>
  </div>
-
+   <!--carrusel-->
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -95,6 +99,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <!-- Video-->
 
   <div class="container-fluid">
     <iframe width="100%" height="315" style="margin-bottom: 20px;" src="https://www.youtube.com/embed/Jv1iolzbvZg" 
@@ -103,6 +108,7 @@
     </iframe>
   </div>
 
+  <!-- Formulario de Login-->
   <div class="modal fade" id="modalInicio" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalInicioLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -131,6 +137,7 @@
 
       </div>
     </div>
+  <!-- Formulario de Registro-->
   </div>
     
     <div class="modal fade" id="modalRegistro" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalRegistroLabel" aria-hidden="true">
@@ -184,6 +191,7 @@
       </div>
       
     </div>
+    <!-- Barra Inferior -->
     <div class="container-fluid bg-light text-center p-3" style="margin-bottom: 0%;">
          <p>&copy; Derechos Reservados</p>
     </div>

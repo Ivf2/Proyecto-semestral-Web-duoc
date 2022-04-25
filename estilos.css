@@ -1,13 +1,20 @@
+.Menu_superior{
+    background-image: url(Imagenes/barras.jpg);
+}
+.fondo {
+    background-color: rgba(212, 255, 163, 0.336);
+}
+
 .bontones_menu{
-    background-color: rgb(224, 248, 172);
+    background-image: url(Imagenes/barras.jpg);
     color: rgb(0, 0, 0);
     border: 1px solid black; 
     padding:1px 20px 1px 10px; 
     margin: auto;
     padding-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px; 
-    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 30px; 
+    border-radius: 700px;
     text-decoration: none;
     box-shadow: 0px 3px 0px black;
 }
